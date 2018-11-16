@@ -1,0 +1,43 @@
+/* Start Main Rules */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+body
+{
+    background-color: #1f1633;
+    padding: 0;
+    margin: 0
+}
+/* End Main Rules */
+
+/* Start My Design */
+section
+{
+    width: 100%
+}
+.clock
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #f2395a;
+    margin: 15% auto;
+    border: 2px solid rgb(245, 241, 2);
+    border-radius: 50%;
+}
+.hand
+{
+    width: 50%;
+    height: 2px;
+    background:rgb(219, 203, 178) ;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+/* End My Design */
